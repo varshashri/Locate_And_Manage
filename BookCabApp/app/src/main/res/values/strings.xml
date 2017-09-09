@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BookCabApp</string>
+    <string name="title_activity_customer">Customer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="select">Select</string>
+
+</resources>

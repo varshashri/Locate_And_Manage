@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    >
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edtuserid"
+        android:layout_marginTop="80dp"
+        android:hint="username"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edtpass"
+        android:layout_marginTop="20dp"
+        android:hint="password"
+        android:textColor="@android:color/black"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:id="@+id/btnlogin"
+
+        android:layout_marginTop="50dp"
+
+
+        android:background="#B22F13"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:id="@+id/btnsignup"
+
+        android:layout_marginTop="50dp"
+
+
+        android:background="#B22F13"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/pbbar"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:indeterminate="false" />
+</LinearLayout>
